@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#welcome-section {
+  background-color: coral;
+  height: 100vh;
+  position: relative;
+}
+
+#welcome-section h1 {
+  margin-top: 0;
+  font-size: 3.5rem;
+  color: white;
+}
+#welcome-section p {
+  margin-top: 0;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.welcome-class {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  text-align: center;
+}
+.see-my-work {
+  padding-top: 30px;
+}
+
+nav {
+  height: 40px;
+  text-align: right;
+  padding-top: 30px;
+  background-color: #583d72;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0 15px 0 15px;
+}
+
+#projects {
+}
+
+#facebook-container {
+  background-color: #0d063b;
+  padding-bottom: 120px;
+}
+
+#projects a h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#projects div {
+  text-align: center;
+}
+
+#projects div h2 {
+  font-size: 3rem;
+}
+
+#projects div ul li {
+  line-height: 2;
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+#projects div #facebook-list {
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+#projects div #instagram-list {
+  margin: 0 auto 0 auto;
+}
+#projects div #snapchat-list {
+  margin: 0 auto 0 auto;
+}
+
+#facebook-link {
+  color: rgb(30, 30, 196);
+  text-decoration: none;
+}
+
+#snapchat-container {
+  background-color: #e8ad23;
+  padding-bottom: 120px;
+}
+
+#snapchat-link {
+  color: yellow;
+  text-decoration: none;
+}
+
+#instagram-container {
+  background-color: #cf73de;
+  padding-bottom: 120px;
+}
+
+#snapchat {
+  width: 400px;
+  margin-top: 50px;
+}
+
+#facebook {
+  width: 500px;
+  margin-top: 50px;
+}
+
+#instagram {
+  width: 220px;
+  margin-top: 50px;
+}
+
+#facebook-list {
+  padding-left: 0px;
+}
+#instagram-list {
+  padding-left: 0px;
+}
+#snapchat-list {
+  padding-left: 0px;
+}
+#end {
+  background-color: coral;
+  text-align: center;
+  height: 200px;
+  padding-bottom: 30px;
+}
+
+#more-projects {
+  margin-top: 0;
+  color: white;
+  padding-top: 80px;
+  font-size: 2rem;
+}
+
+#end a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #583d72;
+  text-align: center;
+}
+footer p {
+  margin-top: 0;
+  padding: 20px;
+}
+#profile-link {
+  text-decoration: none;
+  font-size: 1.8em;
+}
